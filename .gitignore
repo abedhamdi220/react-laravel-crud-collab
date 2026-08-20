@@ -1,0 +1,21 @@
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Laravel / PHP
+backend/vendor/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/storage/*.key
+backend/bootstrap/cache/*.php
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
